@@ -2,7 +2,7 @@
 
 float fahr_to_cel(float fahr);
 
-int main(void) {
+int main() {
     float fahr;
     int lower = 0;
     int upper = 300;
