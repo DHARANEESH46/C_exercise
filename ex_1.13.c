@@ -21,7 +21,6 @@ int main() {
             ++length;
         }
     }
-
     for (int i = 1; i <= MAXWORD; i++) {
         if (l[i] > 0) {
             printf("%2d | ", i);
