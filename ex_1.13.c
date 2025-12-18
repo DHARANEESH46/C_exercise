@@ -2,7 +2,7 @@
 
 #define MAXWORD 20   
 
-int main(void) {
+int main() {
     int c;
     int length = 0;
     int l[MAXWORD + 1];
