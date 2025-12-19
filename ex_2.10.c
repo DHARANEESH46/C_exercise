@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int lower(int c)
+{
+    return (c >= 'A' && c <= 'Z') ? (c + ('a' - 'A')) : c;
+}
+
+int main()
+{
+    char ch = 'G';
+
+    printf("Lowercase: %c\n", lower(ch));
+
+    return 0;
+}
